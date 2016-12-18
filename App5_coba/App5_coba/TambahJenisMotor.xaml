@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5_coba.TambahJenisMotor">
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+<StackLayout>
+  <Label Text="Masukan Nama Jenis Motor"/>
+  <Entry x:Name="txtNamaJenisMtr" Placeholder="Nama Jenis Motor"/>
+  <Label Text="Masukan Nama Motor"/>
+  <Entry x:Name="txtNamaMotor" Placeholder="Nama Motor"/>
+  <Button x:Name="btnTambahJenis" Text="Tambah"/>
+</StackLayout>
+</ContentPage>

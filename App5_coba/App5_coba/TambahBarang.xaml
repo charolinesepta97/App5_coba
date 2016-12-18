@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5_coba.TambahBarang">
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <StackLayout Orientation="Vertical">
+    
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Kode Barang" WidthRequest="140"/>
+      <Entry x:Name="txtKodeBarang" Placeholder="Kode Barang"/>
+    </StackLayout>
+    
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Id Jenis Motor" WidthRequest="140"/>
+      <Entry x:Name="txtIdJenisMotor" Placeholder="Id Jenis Motor"/>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Id Kategori" WidthRequest="140"/>
+      <Entry x:Name="txtIdKategori" Placeholder="Id Kategori"/>
+    </StackLayout>
+    
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Nama Motor" WidthRequest="140"/>
+      <Entry x:Name="txtNamaMotor" Placeholder="Nama Motor"/>
+    </StackLayout>
+    
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Stok" WidthRequest="140"/>
+      <Entry x:Name="txtStok" Placeholder="Stok"/>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Harga Beli" WidthRequest="140"/>
+      <Entry x:Name="txtHargaBeli" Placeholder="Harga Beli"/>
+    </StackLayout>
+    
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Harga Jual" WidthRequest="140"/>
+      <Entry x:Name="txtHargaJual" Placeholder="Harga Jual"/>
+    </StackLayout>
+    
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Tanggal Beli" WidthRequest="140"/>
+      <Entry x:Name="txtTanggal" Placeholder="Tanggal Beli"/>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal">
+      <Button x:Name="btnTambahBarang" Text="Tambah"/>
+    </StackLayout>
+
+ 
+  </StackLayout>
+</ContentPage>

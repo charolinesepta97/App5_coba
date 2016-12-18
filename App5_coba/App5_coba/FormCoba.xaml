@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5_coba.FormCoba">
+  <StackLayout>
+   
+  <Label Text="Kode Barang"/>
+  <Entry   x:Name="txtKodeBarang" IsEnabled="False" Text="{Binding KodeBarang}"/>
+    
+  <Label Text="Id Jenis Motor"/>
+  <Entry x:Name="txtIdJenisMotor" Text="{Binding IdJenisMotor}"/>
+
+  <Label Text="Kategori Id"/>
+  <Entry x:Name="txtKategoriId" Text="{Binding KategoriId}"/>
+
+  <Label Text="Nama Barang"/>
+  <Entry x:Name="txtNama" Text="{Binding Nama}"/>
+  
+  <StackLayout Orientation="Horizontal">
+  <Button x:Name="btnEdit" Text="Edit"/>
+  <Button x:Name ="btnDelete" Text="Delete"/> 
+  </StackLayout>
+  </StackLayout>
+  
+</ContentPage>

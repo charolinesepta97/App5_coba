@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5_coba.EditBarang">
+  <StackLayout Orientation="Vertical">
+
+   <StackLayout Orientation="Horizontal">
+     <Label Text="Kode Barang" WidthRequest="140"/>
+     <Entry   x:Name="txtKodeBarang" IsEnabled="False" Text="{Binding KodeBarang}"/>
+   </StackLayout> 
+    
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Id Jenis Motor   " WidthRequest="140"/>
+      <Entry x:Name="txtIdJenisMotor" Text="{Binding IdJenisMotor}"/>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Kategori Id       " WidthRequest="140"/>
+      <Entry x:Name="txtKategoriId" Text="{Binding KategoriId}"/>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Nama Barang     " WidthRequest="140"/>
+      <Entry x:Name="txtNama" Text="{Binding Nama}"/>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Stok               " WidthRequest="140"/>
+      <Entry x:Name="txtStok" Text="{Binding Stok}"/>
+    </StackLayout>
+  
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Harga Beli        " WidthRequest="140"/>
+      <Entry x:Name="txtHB" Text="{Binding HargaBeli}"/>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Harga Jual       " WidthRequest="140"/>
+      <Entry x:Name="txtHJ" Text="{Binding HargaJual}"/>
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal" >
+      <Label Text="Tanggal Beli    " WidthRequest="140"/>
+      <Entry x:Name="txtTanggal" Text="{Binding TanggalBeli}"/>
+    </StackLayout>
+ 
+  <StackLayout Orientation="Horizontal">
+  <Button x:Name="btnEdit" Text="Edit"/>
+  <Button x:Name ="btnDelete" Text="Delete"/> 
+  </StackLayout>
+    
+  </StackLayout>
+  
+</ContentPage>

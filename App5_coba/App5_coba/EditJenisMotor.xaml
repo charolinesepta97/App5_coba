@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5_coba.EditJenisMotor">
+  <StackLayout>
+    <Label Text="ID"/>
+    <Entry   x:Name="txtJenis" IsEnabled="False" Text="{Binding IdJenisMotor}"/>
+    <Label Text="Nama Jenis Motor"/>
+    <Entry x:Name="txtNamaJenisMtr" Text="{Binding NamaJenisMotor}"/>
+    <Label Text="Nama Motor"/>
+    <Entry x:Name="txtNamaMotor" Text="{Binding NamaMerk}"/>
+    <StackLayout Orientation="Horizontal">
+      <Button x:Name="btnEdit" Text="Edit"/>
+      <Button x:Name ="btnDelete" Text="Delete"/>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>
